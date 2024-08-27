@@ -76,6 +76,7 @@ a {
 footer {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-top: 0;
 }
 
 @media (max-width: 500px) {
@@ -86,10 +87,10 @@ footer {
     font-size: 1.4rem;
   }
   .time {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .date {
-    font-size: 0.8;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 400px) {
@@ -97,16 +98,16 @@ footer {
     padding: 25px 15px;
   }
   h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .time {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .time small {
     font-size: 0.8;
   }
   .date {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 300px) {
