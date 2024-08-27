@@ -35,7 +35,8 @@ select {
   }
 }
 h2 {
-  margin: 0;
+  font-size: 1.8rem;
+  margin: 0 0 5px 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 .city {
@@ -75,4 +76,53 @@ a {
 footer {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 30px 20px;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  .time {
+    font-size: 1.8rem;
+  }
+  .date {
+    font-size: 0.8;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    padding: 25px 15px;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  .time {
+    font-size: 1.2rem;
+  }
+  .time small {
+    font-size: 0.8;
+  }
+  .date {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 300px) {
+  .container {
+    padding: 20px 10px;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .time {
+    font-size: 1rem;
+  }
+  .time small {
+    font-size: 0.6rem;
+  }
+  .date {
+    font-size: 0.6rem;
+  }
 }
