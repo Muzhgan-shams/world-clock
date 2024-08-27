@@ -12,18 +12,21 @@ body {
 }
 h1 {
   text-align: center;
+  margin-top: 0;
 }
 .container {
   max-width: 700px;
   background: var(--dark-color);
-  margin: 30px auto;
-  padding: 15px 20px;
+  margin: 60px auto;
+  padding: 30px;
   border-radius: 10px;
+  box-shadow: #ffffff2a 0px 7px 29px 0px;
 }
 select {
   width: 100%;
-  padding: 8px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
   outline: none;
   outline-offset: 0;
   border-radius: 5px;
@@ -32,19 +35,33 @@ select {
   }
 }
 h2 {
-  margin-bottom: 0;
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 .city {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: var(--background-color);
-  padding: 10px;
+  padding: 20px;
   margin: 10px auto;
   border-radius: 10px;
+  vertical-align: center;
+  /* border: 0.5px solid var(--light-color); */
 }
 .date {
   font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.7;
+}
+.time {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.time small {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+  line-height: 48px;
 }
 a {
   color: var(--light-color);
