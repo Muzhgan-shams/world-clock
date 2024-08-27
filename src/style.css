@@ -73,6 +73,13 @@ a {
     color: #f58c8c;
   }
 }
+.home {
+  text-decoration: none;
+  background-color: var(--background-color);
+  padding: 5px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 footer {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
